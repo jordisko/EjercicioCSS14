@@ -1,0 +1,46 @@
+.box{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    outline: black solid 3px;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: red;
+
+}
+.circulo{
+    width: 22px;
+    height: 22px;
+    background-color: green;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    outline: black solid 3px;
+}
+.circulo-1 {
+    position: absolute;
+    top: 10px;
+    left:10px
+}
+.circulo-2 {
+    position: absolute;
+    top: 10px;
+    left:510px;
+}
+.circulo-3 {
+    position: absolute;
+    top: 510px;
+    left:10px
+}
+.circulo-4 {
+    position: absolute;
+    top: 510px;
+    left:510px
+}
+
